@@ -5,25 +5,25 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "14.2.5",
-    "react": "^18",
-    "react-dom": "^18",
-    "framer-motion": "^11.3.8",
-    "lucide-react": "^0.408.0"
+    "next": "^15.2.4",
+    "react": "^19",
+    "react-dom": "^19",
+    "framer-motion": "^12.6.3",
+    "lucide-react": "^0.483.0"
+  },
+  "engines": {
+    "node": "24.x"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
     "typescript": "^5",
-    "tailwindcss": "^3.4.6",
+    "tailwindcss": "^3.4.17",
     "postcss": "^8",
-    "autoprefixer": "^10",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "autoprefixer": "^10"
   }
 }
